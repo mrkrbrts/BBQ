@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1rem;
+    color: #404040;
+    text-align: center;
+}
+
+/* =================
+   Typography 
+   ================= */
+
+h1 {
+    color: white;
+    font-size: 2.25rem;
+    font-weight: 300;
+    margin: 2em 0;
+}
+
+h2 {
+    font-size: 1.3125rem;
+}
+
+h2 + p {
+    color: #F18119;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;  
+}
+
+.small {
+    font-size: .625rem;
+    letter-spacing: 1px;  
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.top-text {
+    font-size: 0.625rem;
+    font-weight: 900;
+    color: #F18119;
+    text-transform: uppercase;
+    letter-spacing: 1px;  
+    order: -1;  
+}
+
+.subheader {
+    color: #F18119;
+    font-weight: 900;
+    font-size: 1.3125rem;    
+    text-transform: uppercase;
+    letter-spacing: 1px;  
+    margin: 0;
+}
+
+/* =================
+   Intro Section
+   ================= */
+
+.intro {
+    background-color: #404040;
+    background-image: url(images/dark-bbq-ribs.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    padding: 0 1em 3em;
+}
+
