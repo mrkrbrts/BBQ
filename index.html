@@ -16,22 +16,29 @@
         </div>
 
         <div class="main-content">
-            <h2>Become a BBQ master!</h2>
+            <h2 id="alternate-title">Become a BBQ master!</h2>
             <p>Register today</p>
             <p>BBQ isn't just standing in front of your grill with it on full blast and hoping for the best. It's an art! One way to speed up the process is to learn from the best. You can do just that by signing up for this free webinar!</p>
 
-            <div class="form">
+            <form action="https://formsubmit.co/mrkrbrts.dev@gmail.com" method="POST">
+                <input type="text" name="name" aria-label="Your name" placeholder="Your name" required>
+                <br>
+                <input type="email" name="email" aria-label="Your email address" placeholder="Your email address" required>
+                <br>
+                <button id="email-collector-button" class="form-button" type="submit">Send</button>
+           </form>
+            
+            <!-- <form id="Email-Collector" class="email-collector" action="#" method="POST">
                 <form target="#">
-                    <input aria-label="Your name" type="text" placeholder="Your name" required>
+                    <input name="firstName" aria-label="Your name" type="text" placeholder="Your name" required>
                     <br>
-                    <input aria-label="Email address" type="email" placeholder="Email address" required>
+                    <input name="emailAddress" aria-label="Email address" type="email" placeholder="Email address" required>
                     <br>
-                    <button class="form-button" type="submit">Submit</button>
+                    <button id="email-collector-button" class="form-button" type="submit">Submit</button>
                 </form>
                 <p class="small">We'll never share your information without your permission</p>
-            </div>
+            </form> -->
             
         </div>
-        
     </body>
 </html>
